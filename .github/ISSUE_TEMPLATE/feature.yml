@@ -1,5 +1,6 @@
 name: Feature / change
 description: Something Reppi needs to build or fix
+type: Feature
 body:
   - type: input
     id: why
