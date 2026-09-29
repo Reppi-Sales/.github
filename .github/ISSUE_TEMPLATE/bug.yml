@@ -1,0 +1,54 @@
+name: Bug
+description: Something in Reppi is broken or behaving wrong
+type: Bug
+body:
+  - type: input
+    id: reported-by
+    attributes:
+      label: Reported by
+      description: Who hit this and how it reached us.
+      placeholder: "e.g., customer support email, Zach field report, found in testing"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What went wrong. Include screenshots if you have them.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened. This is the done-state for the fix.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Optional but very helpful.
+      placeholder: |
+        1. 
+        2. 
+        3. 
+
+  - type: input
+    id: device
+    attributes:
+      label: Device / app version
+      placeholder: "e.g., iPhone 14, iOS 18, app v1.2"
+
+  - type: checkboxes
+    id: standard-done
+    attributes:
+      label: Standard done (every issue)
+      description: Leave unchecked when filing. Tick these on the issue once the fix is done.
+      options:
+        - label: Fix deployed to production
+        - label: Tested on a real phone
+        - label: Reporter (or Zach on their behalf) confirmed it's fixed
