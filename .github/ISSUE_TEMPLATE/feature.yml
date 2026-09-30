@@ -1,7 +1,7 @@
 name: Feature / change
 description: Something Reppi needs to build or fix
 type: Feature
-projects: ["Reppi Build"]
+projects: ["Reppi-Sales/3"]
 body:
   - type: input
     id: why
