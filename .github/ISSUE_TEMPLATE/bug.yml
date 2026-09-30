@@ -1,6 +1,7 @@
 name: Bug
 description: Something in Reppi is broken or behaving wrong
 type: Bug
+projects: ["Reppi-Sales/3"]
 body:
   - type: input
     id: reported-by
