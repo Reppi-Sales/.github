@@ -8,7 +8,7 @@ body:
     attributes:
       label: Why
       description: Who needs this and where it came from.
-      placeholder: "e.g., customer call, Zach field feedback, bug report"
+      placeholder: "e.g., customer call, Zack field feedback, bug report"
     validations:
       required: true
 
@@ -35,7 +35,7 @@ body:
     id: standard-done
     attributes:
       label: Standard done (every issue)
-      description: Leave unchecked when filing. Tick these on the issue once the work is done.
+      description: Tick these on the issue once the work is done.
       options:
         - label: Deployed to production
 
