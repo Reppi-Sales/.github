@@ -1,0 +1,46 @@
+name: Feature (API)
+description: Something Reppi needs to build or fix
+type: Feature
+projects: ["Reppi-Sales/3"]
+body:
+  - type: input
+    id: why
+    attributes:
+      label: Why
+      description: Who needs this and where it came from.
+      placeholder: "e.g., customer call, Zach field feedback, bug report"
+    validations:
+      required: true
+
+  - type: textarea
+    id: whats-needed
+    attributes:
+      label: What's needed
+      description: 2–5 sentences. The problem and expected behavior, not the implementation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: At least two testable items. Start each line with "- [ ] " so they become checkboxes.
+      placeholder: |
+        - [ ] Rep can upload a photo of their license from mobile
+        - [ ] Upload appears in the manager view
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: standard-done
+    attributes:
+      label: Standard done (every issue)
+      description: Leave unchecked when filing. Tick these on the issue once the work is done.
+      options:
+        - label: Deployed to production
+
+  - type: textarea
+    id: not-included
+    attributes:
+      label: Not included
+      description: Optional. Anything someone might assume is in scope but isn't.
