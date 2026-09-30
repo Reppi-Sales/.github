@@ -8,7 +8,7 @@ body:
     attributes:
       label: Reported by
       description: Who hit this and how it reached us.
-      placeholder: "e.g., customer support email, Zach field report, found in testing"
+      placeholder: "e.g., customer support email, Zack field report, found in testing"
     validations:
       required: true
 
