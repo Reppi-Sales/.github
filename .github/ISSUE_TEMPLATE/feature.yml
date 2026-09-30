@@ -1,4 +1,4 @@
-name: Feature / change
+name: Feature
 description: Something Reppi needs to build or fix
 type: Feature
 projects: ["Reppi-Sales/3"]
